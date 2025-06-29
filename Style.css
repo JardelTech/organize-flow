@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: #2a7b9b;
+  background: linear-gradient(
+    90deg,
+    rgba(42, 123, 155, 1) 0%,
+    rgba(84, 194, 135, 1) 46%,
+    rgba(87, 199, 133, 1) 51%,
+    rgba(237, 221, 83, 1) 100%
+  );
+}
+.topo {
+  background: linear-gradient(
+    90deg,
+    rgba(42, 123, 155, 1) 0%,
+    rgba(84, 194, 135, 1) 46%,
+    rgba(87, 199, 133, 1) 51%,
+    rgba(237, 221, 83, 1) 100%
+  );
+  width: 100%;
+  height: 156px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+.texttopo {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(255, 247, 247);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 26px;
+  margin-left: 190px;
+  text-shadow: 12 black;
+}
+.finaltext a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  font-size: 18px;
+  margin-left: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.finaltext2 a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  font-size: 18px;
+  margin-left: 98px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.textgrafico {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  color: azure;
+  font-weight: 800;
+  margin-top: 70px;
+  margin-left: 30px;
+}
+.imagemgrafico img {
+  width: 400px;
+  height: 520px;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+.situacaofinanceira {
+  margin-left: 940px;
+  margin-top: -1150px;
+}
+.textsituaçao {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  color: azure;
+  font-weight: 800;
+  font-size: 18px;
+}
+.imagemsituacao img {
+  width: 450px;
+  height: 420px;
+}
+.imagemsituacao2 img {
+  width: 390px;
+  height: 465px;
+  margin-left: 470px;
+  margin-top: -450px;
+}
+.controlegasto {
+  margin-left: 300px;
+}
+.imagemcontrole img {
+  margin-left: -140px;
+  margin-top: -428px;
+}
+.textcontrole h1 {
+  margin-left: 390px;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  color: rgb(243, 255, 255);
+  font-weight: 800;
+  font-size: 30px;
+  margin-top: 100px;
+}
+.textosex h4 {
+  margin-left: 390px;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  color: rgb(215, 220, 220);
+  font-weight: normal;
+  font-size: 18px;
+  margin-top: 30px;
+}
+.conteinertwo {
+  width: 100%;
+  height: 473px;
+  background-color: #2a7b9b;
+  margin-top: 100px;
+}
